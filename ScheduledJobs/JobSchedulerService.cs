@@ -24,7 +24,7 @@ namespace ScheduledJobs
 
         protected override void OnStart(string[] args)
         {
-            _runner.Run();
+            _runner.Run().GetAwaiter().GetResult();
         }
 
         protected override void OnStop()

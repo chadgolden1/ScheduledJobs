@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ScheduledJobs.Infrastructure.Jobs
 {
-    public class Job1 : JobBase
+    public class Job3 : JobBase
     {
         public override async Task DoWork()
         {

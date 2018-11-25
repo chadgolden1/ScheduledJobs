@@ -49,6 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infrastructure\ISchedulerRunner.cs" />
+    <Compile Include="Infrastructure\Jobs\Job4.cs" />
+    <Compile Include="Infrastructure\Jobs\Job3.cs" />
+    <Compile Include="Infrastructure\Jobs\Job0.cs" />
+    <Compile Include="Infrastructure\Jobs\Job2.cs" />
     <Compile Include="Infrastructure\Jobs\Job1.cs" />
     <Compile Include="Infrastructure\Jobs\JobBase.cs" />
     <Compile Include="Infrastructure\SchedulerRunner.cs" />

@@ -13,6 +13,7 @@ namespace ScheduledJobs.Infrastructure.Jobs
         {
             try
             {
+                await Task.Delay(5000);
                 await DoWork();
             }
             catch (Exception ex)
